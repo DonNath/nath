@@ -21,6 +21,7 @@ body{
     cursor: pointer;
 }
 #toastBox{
+  
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -30,9 +31,33 @@ body{
     overflow: hidden;
     padding: 20px;
 }
-
-
-
+ 
+#toastBox{
+    
+    width: 400px;
+    height: 80px;
+    background: #fff;
+    font-weight: 500;
+    margin: 15px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+}
+#toastBox::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: green;
+    animation: anim 5s linear forwards;
+}
+@keyframes anim{
+    100%{
+        width: 0;
+    }
+}
 
 
 
