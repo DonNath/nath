@@ -1,83 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+
+.uber-btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 110px;
 }
-body{
-    background: #f7edff;
+.amazon-btn{
+    background-color: rgb(255,216, 20);
+    height: 36px;
+    width: 150px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 20px;
 }
-.buttons{
-    margin: 50px;
+.github-btn{
+    background-color: rgb(46,164, 79);
+    height: 36px;
+    width: 110px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+}.boot{
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 400px;
+    border: 1px solid black;
 }
-.buttons button{
-    background: #333;
-    color: #fff;
-    border: 0;
-    outline: 0;
+.boot1-btn{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    height: 36px;
     width: 120px;
-    height: 40px;
-    margin: 5px;
-    cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
-#toastBox{
-  
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    overflow: hidden;
-    padding: 20px;
+.boot2-btn{
+    background-color: rgb(255, 255,255);
+    color: white;
+    height: 36px;
+    width: 120px;
+    color: rgb(121, 82, 179);;
+    border: 1px solid rgb(121, 82, 179);
+    border-radius: 4px;
 }
- 
-#toastBox{
+.linked{
+    margin-top: 20px;
     
-    width: 400px;
-    height: 80px;
-    background: #fff;
-    font-weight: 500;
-    margin: 15px 0;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    display: flex;
-    align-items: center;
 }
-#toastBox::after{
-    content: '';
+.linked1-btn{
+    background-color: rgb(10, 102, 194);
+    padding: 10px 18px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.linked2-btn{
+    width: 70px;
+    background-color:  white;
+    padding: 10px 18px;
+    color:rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 20px;
+
+}
+
+.amazon{
     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 5px;
-    background: green;
-    animation: anim 5s linear forwards;
+    padding: 30px;
+    border: 2px green solid ;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold ;
 }
-@keyframes anim{
-    100%{
-        width: 0;
-    }
+.amount{
+    color: rgb(0, 118, 0);
 }
+.anchor{
+    color: rgb(0, 113, 133);
+}
+.addToCart{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 16px; 
+    padding: 10px 25px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.buy{
+    background-color:rgb(255, 164, 28);
+    border: none;
+    margin-left: 10px;
+    border-radius: 16px; 
+    padding: 10px 30px; 
+}
